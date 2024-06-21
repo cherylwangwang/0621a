@@ -63,9 +63,9 @@
             this.成绩录入ToolStripMenuItem,
             this.成绩分析ToolStripMenuItem,
             this.个人信息ToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Location = new System.Drawing.Point(0, 27);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(89, 532);
+            this.menuStrip1.Size = new System.Drawing.Size(89, 505);
             this.menuStrip1.TabIndex = 6;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -101,9 +101,9 @@
             this.toolStripTextBox2,
             this.toolStripTextBox1,
             this.toolStripButton1});
-            this.toolStrip1.Location = new System.Drawing.Point(89, 0);
+            this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(927, 27);
+            this.toolStrip1.Size = new System.Drawing.Size(1016, 27);
             this.toolStrip1.TabIndex = 7;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -217,8 +217,8 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1016, 532);
             this.Controls.Add(this.splitContainer1);
-            this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.menuStrip1);
+            this.Controls.Add(this.toolStrip1);
             this.Name = "Form1";
             this.Text = "学生成绩管理系统";
             this.menuStrip1.ResumeLayout(false);
